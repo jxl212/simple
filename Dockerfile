@@ -1,6 +1,7 @@
 FROM python:latest
 
-RUN pip install --upgrade pip
+RUN pip install pip --upgrade
+
 COPY app/ /app
 WORKDIR /app
 EXPOSE 5000
