@@ -1,5 +1,4 @@
 FROM python:latest
-
 RUN pip install --upgrade pip
 
 COPY app/ /app
